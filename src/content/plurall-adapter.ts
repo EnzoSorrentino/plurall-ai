@@ -1,0 +1,2 @@
+export function findOption(letter: string): HTMLElement | null { return Array.from(document.querySelectorAll<HTMLElement>('[data-test-id="option"]')).find(el => el.textContent?.trim().toLowerCase() === letter.toLowerCase()) ?? null; }
+export function findAnswerBox(): HTMLInputElement|HTMLTextAreaElement|null { return document.querySelector<HTMLInputElement|HTMLTextAreaElement>('textarea[placeholder*="resposta" i], input[placeholder*="resposta" i]'); }

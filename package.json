@@ -1,0 +1,9 @@
+{
+  "name": "plurall-ai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {"dev": "vite", "build": "vite build", "typecheck": "tsc --noEmit", "server:dev": "npm --prefix server run dev"},
+  "dependencies": {"@vitejs/plugin-react": "latest", "react": "latest", "react-dom": "latest"},
+  "devDependencies": {"@crxjs/vite-plugin": "latest", "@types/chrome": "latest", "@types/react": "latest", "@types/react-dom": "latest", "typescript": "latest", "vite": "latest"}
+}

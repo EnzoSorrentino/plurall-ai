@@ -1,0 +1,8 @@
+{
+  "name": "plurall-ai-server",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev":"tsx watch src/index.ts","start":"tsx src/index.ts","typecheck":"tsc --noEmit"},
+  "dependencies": {"@google/genai":"latest","cors":"latest","dotenv":"latest","express":"latest"},
+  "devDependencies": {"@types/cors":"latest","@types/express":"latest","tsx":"latest","typescript":"latest"}
+}

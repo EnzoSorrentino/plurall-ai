@@ -1,0 +1,1 @@
+export default function Options(){return <main style={{fontFamily:"system-ui",padding:32,maxWidth:700}}><h1>Plurall AI</h1><p>Configurações da extensão e política de execução autorizada.</p><label><input type="checkbox" defaultChecked/> Ignorar desafios</label><br/><label><input type="checkbox" defaultChecked/> Salvar progresso localmente</label></main>}
